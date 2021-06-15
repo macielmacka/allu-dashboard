@@ -11043,7 +11043,8 @@ button.mfp-close {
 #small-dialog-2,
 #small-dialog-3,
 #small-dialog-4,
-#small-dialog {
+#small-dialog
+ {
 	background: #fff;
 	padding: 40px;
 	padding-top: 0;
@@ -11053,7 +11054,21 @@ button.mfp-close {
 	position: relative;
 	box-sizing:border-box;
 	border-radius: 4px;
-	max-width: 550px;
+	/* max-width: 550px; */
+}
+
+#modal-chart
+ {
+	background: #fff;
+	/* padding: 40px; */
+	padding-top: 0;
+	text-align: left;
+	/* max-width: 610px; */
+	margin: 40px auto;
+	position: relative;
+	box-sizing:border-box;
+	border-radius: 4px;
+	max-width: 95%;
 }
 
 
@@ -14245,7 +14260,7 @@ a.dashboard-responsive-nav-trigger { display: none; }
 	display: block;
 	border-radius: 4px;
 	background-color: #fff;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	/* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
 	margin-top: 30px;
 	position: relative;
 	padding: 20px;
